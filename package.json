@@ -8,7 +8,8 @@
     "build": "tsc && vite build",
     "format": "npx prettier . -w",
     "preview": "vite preview",
-    "configure-husky": "npx husky install && npx husky add .husky/pre-commit \"npx --no-install lint-staged\""
+    "configure-husky": "npx husky install && npx husky add .husky/pre-commit \"npx --no-install lint-staged\"",
+    "tsc": "./node_modules/typescript/bin/tsc"
   },
   "dependencies": {
     "@chakra-ui/react": "^2.8.2",
