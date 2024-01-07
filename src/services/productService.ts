@@ -3,8 +3,8 @@ import APIClient from "./apiClient";
 export interface Product {
   id: number;
   sku: string;
-  shortName: string;
-  longName: string;
+  short_name: string;
+  long_name: string;
   brand: string;
   description: string;
 }
